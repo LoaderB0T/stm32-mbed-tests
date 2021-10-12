@@ -39,14 +39,14 @@ VPATH = ..
 ###############################################################################
 # Project settings
 
-PROJECT := mbed-os-test-2021
+PROJECT := stm32-mbed-test
 
 
 # Project settings
 ###############################################################################
 # Objects and Paths
 
-OBJECTS += main.o
+OBJECTS += src/main.o
 OBJECTS += mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
 OBJECTS += mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
 OBJECTS += mbed-os/components/802.15.4_RF/atmel-rf-driver/source/at24mac.o

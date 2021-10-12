@@ -10,7 +10,7 @@
       },
       "dependsOn": ["build binary"],
       "command": [
-        "st-flash write ./BUILD/${workspaceFolderBasename}.bin 0x8000000"
+        "st-flash --reset write ./BUILD/${workspaceFolderBasename}.bin 0x8000000"
       ]
     },
     {
