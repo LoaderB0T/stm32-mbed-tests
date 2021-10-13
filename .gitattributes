@@ -3,3 +3,4 @@ Makefile linguist-vendored=true
 STM32F446x.svd linguist-vendored=true
 mbed_config.h linguist-vendored=true
 .vscode linguist-vendored=true
+lib/** linguist-vendored=true
